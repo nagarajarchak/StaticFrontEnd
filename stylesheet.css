@@ -1,0 +1,90 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+/*
+    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+*/
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    background-color: #030303;
+    border: 10px solid #fff;
+    margin: 25px;
+    
+}
+
+#Homepage {
+    width: 100%;
+}
+
+#TEDxLogo {
+    padding: 30px 0 0 30px;
+    height: auto;
+    width: 33%;
+}
+
+/****************************
+      NAVIGATION MENU
+****************************/
+
+p {
+    padding: 40px 40px 0 0;
+    display: inline-block;
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.5em;
+    margin-left: 20px;
+    border-bottom: 4px solid #111111;
+}
+
+a:hover {
+    border-bottom: 4px solid red;
+    transition: all 0.3s ease;
+}
+
+a:active {
+    transition: opacity 0.3s ease;
+    border-bottom: 4px solid #fff;
+}
+
+a:link {
+    color: #fff;
+}
+
+a:visited {
+    color: #fff;
+}
+
+/****************************
+        TYPING EFFECT
+****************************/
+
+.typed-cursor{
+    opacity: 0;
+}
+
+#Words1 {
+    position: relative;
+    top: 15%;
+    transform: translateY(-15%);
+    font-family: 'Roboto Slab', serif;
+    font-size: 10em;
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
+
