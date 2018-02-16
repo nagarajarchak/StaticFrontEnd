@@ -1,0 +1,605 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("Images/Creatives1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+    
+  
+}
+
+/********************************* 
+       GENERAL FORMATTING
+*********************************/
+
+p {
+    font-family: 'Homenaje', sans-serif;
+    font-weight: bolder;
+    color: #fff;
+    font-size: 2.5em;
+}
+
+/********************************* 
+       HYPERLINK FORMATTING
+*********************************/
+
+a:link {
+    color: #070811;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+/* Visited Link */
+a:visited {
+    color: #070811;
+    text-decoration: none;
+}
+
+/* Mouse Over Link */
+a:hover {
+    color: #ff0000;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+/* Selected Link */
+a:active {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+/********************************* 
+          HAMBURGER MENU
+*********************************/
+
+#Sidebar1 {
+    padding-top: 20px;
+    background-color:#f7f7f7;
+    width: 200px;
+    height: 100%;
+    display: block;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+    left: -200px;
+    transition: left 0.4s ease;
+}
+
+#Sidebar1.visible {
+    left: 0px;
+    transition: left 0.4s ease;
+}
+
+#Button {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 15px;
+    cursor: pointer;
+    margin: 20px;
+    position: absolute;
+    top: 0px;
+    right: -60px;
+   
+}
+
+#Button span {
+    height: 2px;
+    background: #ff0000;
+    margin-bottom: 5px;
+    display: block;
+}
+
+#Button span:nth-child(2) {
+    width: 75%;
+}
+
+#Button span:nth-child(3) {
+    width: 50%;
+}
+
+
+
+#SL {
+    height: 6%;
+    width: auto;
+    padding-bottom: 15px;
+}
+
+#HL {
+    padding-top: 25px;
+    text-align: center;
+}
+
+#SL1 {
+    visibility: hidden;
+}
+
+#HL1 {
+    visibility: hidden;
+}
+
+ul li {
+    list-style: none;
+    font-family: 'Homenaje', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.3em;
+}
+
+ul li a {
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+#Social {
+    padding-top: 250px;
+    text-align: center;
+}
+
+#Fb {
+    height: 30px;
+    width: auto;
+    padding-right: 5px;
+    padding-left: 3px;
+}
+
+#Tw {
+    height: 23px;
+    width: auto;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    padding-right: 4px;
+}
+
+#Wp {
+    height: 33px;
+    width: auto;
+}
+
+    #MT {
+        display: none;
+    }
+    
+    #MT1 {
+        display: none;
+    }
+
+/********************************* 
+             SITE 2016
+*********************************/
+
+#MPLogo {
+    padding-top: 70px;
+    width: 55%;
+    height: auto;
+}
+
+#Site2016Section {
+        
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+#Quote {
+    padding-top: 45px;
+    padding-bottom: 25px;
+    font-weight: normal;
+}
+
+#Quote11 {
+        display: none;
+    }
+
+#Witness {
+    padding-bottom: 30px;
+    font-weight: normal;
+}
+
+#E2016 {
+    font-family: 'Homenaje', sans-serif;
+    font-weight: normal;
+    color: #fff;
+    font-size: 2.5em;
+    
+    border: 4px solid #fd1a1a;
+    padding: 5px 10px;;
+}
+
+#S16 {
+    color: #fff;
+}
+
+#S16:hover {
+    color: #fd1a1a;
+}
+
+/********************************* 
+            NIT Trichy
+*********************************/
+
+#NITSection {
+    
+    height: 100%;
+    width: 100%;    
+    vertical-align: middle;
+}
+
+#CT {
+    padding-top: 12%;
+    padding-right: 130px;
+    height: 400px;
+    width: auto;
+    float: right;
+}
+
+#NITHead {
+    font-family: 'Homenaje', sans-serif;
+    font-weight: bolder;
+    color: #fff;
+    font-size: 2.3em;
+    padding-top: 20%;
+    padding-left: 100px; 
+    padding-bottom: 20px;
+}
+
+#NITDescp {
+    font-family: 'Homenaje', sans-serif;
+    font-weight: normal;
+    color: #cfcfcf;
+    font-size: 1.45em;
+    padding-top: 5px;    
+    padding-left: 100px;
+}
+
+#NITDescp1 {
+        display: none;
+    }
+
+
+/********************************* 
+            TEDxSection
+*********************************/
+
+#TEDxSection {
+    
+    height: auto;
+    width: 100%;
+    padding: 70px 0;
+background-color: rgba(243, 27, 27, 0.5);
+    margin: 0;
+}
+
+#Billion1 {
+    height: 60%;
+    width: auto;
+    float: right;
+    padding-top: 11%;
+    padding-right: 70px;
+}
+
+#T1 {
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+#Theme1 {
+    width: 30%;
+    font-family: 'Homenaje', sans-serif;
+    color: #fff;
+    font-size: 1.45em;
+    font-weight: normal;
+    display: table-cell;
+    padding-left: 70px;
+}
+
+#Theme2 {
+    color: #fff;
+    font-family: 'Homenaje', sans-serif;
+    font-weight: normal;
+    font-size: 1.45em;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    width: 30%;
+    padding-left: 40px;
+    padding-right: 70px;
+}
+
+/********************************* 
+       TEDxNITTrichy Section
+*********************************/
+
+#TEDxNITTrichySection{
+    width: 100%;
+    height: auto;
+    
+    text-align: center;
+    padding: 40px 0;
+}
+
+#T11 {
+   font-size: 1.7em; 
+}
+
+#Theme22 {
+    width: 100%;
+    font-size: 1.45em;
+    font-weight: normal;
+    padding-bottom: 30px;
+}
+
+#T111 {
+    padding-top: 300px;
+    padding-right: 250px;
+    font-weight: normal;
+    float: right;
+    font-family: 'Homenaje', sans-serif;
+    color: #fff;
+/*    border-bottom: 5px solid #ff1d1d;*/
+   font-size: 5.7em; 
+}
+
+#PP1 {
+   font-size: 1.7em; 
+    padding: 0 5px;
+    border-bottom: 3px solid #ff1d1d;
+}
+
+#Prin1 {
+    
+    padding-left: 80px;
+    width: 100%;
+    font-size: 1.45em;
+    font-weight: normal;
+    text-align: left;   
+}
+
+#Theme22345 {
+    display: none;
+}
+/********************************* 
+             TEDx 2015
+*********************************/
+
+#TEDx2015Section {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#Quote1 {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    font-weight: normal;
+}
+
+#Quote2 {
+    
+    font-family: 'Homenaje', sans-serif;
+    font-weight: normal;
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: normal;
+    border: 4px solid #fff;
+    padding: 10px 31px;;
+}
+
+#E2017 {
+    font-family: 'Homenaje', sans-serif;
+    font-weight: normal;
+    color: #fff;
+    font-size: 2.5em;
+    
+    border: 4px solid #fff;
+    padding: 10px 10px;;
+}
+
+#S17 {
+    color: #fff;
+}
+
+#S17:hover {
+    color: #ff3838;
+}
+
+/********************************* 
+            ORGANISERS
+*********************************/
+
+#OrganisersSection {
+    
+    text-align: center;
+    height: auto;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+#OT {
+    padding: 20px 0;
+    font-size: 3.5em;
+}
+
+.OrgContainer {
+    display: inline-block;
+}
+
+.OrgContainer img {
+    width: 200px;
+    height: 200px;
+    transition: 0.3s;
+}
+
+/*
+#TextO {
+    padding: 5px 0;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+*/
+
+#TextO {
+	color: #ffffff;
+	width: 200px;
+    height: 200px;	
+	text-align: center;
+	position: absolute;
+	cursor: pointer;
+	display: none;
+	font-size: 1.5em;
+    padding-top: 80px;
+    
+}
+
+.OrgContainer:hover img {
+    transform: scale(0.97);
+}
+
+.Overlay {
+	opacity: 0;
+
+}
+
+.OrgContainer:hover > .Overlay{
+	
+	width: 194px;
+    height: 194px;
+    position: absolute;
+    background-color:#000;
+    opacity:0.7;
+    transition: opacity .2s ease-in-out;
+	transform: translate3d(3px, -197px, 0px);
+}
+
+.OrgContainer:hover #TextO {
+	display: block;
+	transition: opacity 1s;
+	transform: translateY(-197px);
+    visibility: visible;
+}
+
+#OrganisersSection2 {
+        display: none;
+    }
+
+/********************************* 
+            TEDxVideo
+*********************************/
+
+.BVideo {
+    
+    padding-top: 50px;
+    
+/*    z-index: -1000;*/
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow:hidden; 
+    padding-bottom: 100px;
+}
+
+#VideoBG {
+
+    max-height: 100%;
+    max-width: 100%;
+    
+    
+}
+
+#glims {
+    font-weight: normal;
+    font-size: 3.5em;
+    text-align: center;
+}
+
+/********************************* 
+            TALK TO US
+*********************************/
+
+#ContactSection {
+    
+    width: 100%;
+    height: auto;
+    display: table;
+    padding-bottom: 0px;
+    padding-left: 50px;
+}
+
+#Venue {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#CCCo {
+    font-family: 'Homenaje', sans-serif;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 1.5em;
+    padding-left: 80px;
+    padding-right: 40px;
+}
+
+
+#C1 {
+    font-size: 1.3em;
+
+}
+
+#C2, #C3 {
+    font-size: 0.8em;
+    font-weight: lighter;
+    color: #cfcfcf;
+}
+
+#C4 {
+    font-size: 0.8em;
+    font-weight: lighter;
+    color: #f02323;
+}
+
+#NITMap {
+    padding: 15% 0;
+}
+
+#NITMap1 {
+    display: none;
+}
+
+#CME {
+    display: none;
+}
+
+/********************************* 
+              Footer
+*********************************/
+
+#Footer11 {
+    background-color: rgba(243, 27, 27, 0.5);
+    height: 3%;
+    width: 100%;
+    float: right;
+    padding: 20px 0;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#Footer1 {
+    font-family: 'Homenaje', sans-serif;
+    font-size: 1.35em;
+    font-weight: normal;
+    color: #fff;
+    vertical-align: middle;
+}

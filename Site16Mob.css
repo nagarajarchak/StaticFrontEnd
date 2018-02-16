@@ -1,0 +1,446 @@
+/*************************************
+		     For Mobiles
+*************************************/
+
+@media screen and (max-width: 800px) {
+    
+    /* LINKS */
+    
+    a:hover {
+        color: #390069;
+    }
+        
+    /* HAMBURGER MENU */
+    
+    #Social {
+        padding-top: 10%;
+    }
+    
+    /* HOME PAGE */
+    
+    #Section1 {
+        background-color: #070811;
+        width: 100%;
+        height: auto;
+        position: static;
+        text-align: center;
+        z-index: none;
+        padding-bottom: 20px;
+    }
+    
+    #Globe {
+        height: auto;
+        width: 40%;
+        padding: 5% 0px 5% 0;
+        float: none;
+    }
+    
+    #TEDxLogo {
+        height: auto;
+        width: 65%;
+        padding-top: 10px;
+        padding-left: 0;
+    }
+
+    #Theme {
+        text-align: center;
+        padding-top: 20px;
+        font-family: 'Homenaje', sans-serif;
+        font-weight: lighter;
+        color: #ffffff;
+        font-size: 1.3em;
+    }
+
+    #Arrow {
+        padding-left: 0;
+        padding-top: 25px;
+    }
+    
+    /* THEME SECTION */
+    
+    #ThemSection1 {
+        margin: 0;
+        background-color: #f7f7f7;
+        width: 100%;
+        height: auto;
+        display: block;
+        vertical-align: middle;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    #Theme1 {
+        font-family: 'Homenaje', sans-serif;
+        color: #000;
+        font-size: 2.5em;
+        display: block;
+        vertical-align: middle; 
+        padding-left: 0;
+    }
+
+    #Theme2 {
+        display: none;
+    }
+    
+    #Theme21 {
+        padding: 10px;
+        display: block;
+        font-size: 1.45em;
+        font-weight: normal;
+    }
+    
+        /* FACT SECTION */
+    
+    #FactSection1 {
+        
+        background-color: #070811;
+        width: 100%;
+        height: auto;
+        display: block;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    #Facts {
+        
+        height: auto;
+        width: 95%;
+        float: none;
+        padding: 0 0;
+    }
+
+    #Billion {
+        height: auto;
+        width: 40%;
+        display: inline-block;
+        padding-right: 0;
+        
+        padding-bottom: 30px;
+
+    }
+    
+        /* SPEAKERS SECTION */
+    
+    #SpeakersSection1 {
+        display: none;
+    }
+    
+    #SpeakersSection2 {
+        display: block;
+        background-color: #f7f7f7;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: 0;
+        padding: 5px 0;
+    }
+
+    #SS {
+        font-family: 'Homenaje', sans-serif;
+        color: #000;
+        padding-top: 20px;
+        padding-bottom: 0;
+        font-weight: bolder;
+        font-size: 3.5em;
+    }
+
+    #SS1 {
+        font-family: 'Homenaje', sans-serif;
+        color: #000;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: bolder;
+        font-size: 2.2em;
+    }
+
+
+    #Text2 {
+        color: #000;
+        width: auto;
+        height: auto;	
+        text-align: center;
+        padding-top: 10px;
+        display: block;
+        font-size: 2.8em;
+        text-decoration: underline;
+    }
+
+    #Text12 {
+        
+        color: #000;
+        width: auto;
+        height: auto;
+        text-align: center;
+        display: block;
+        font-size: 1.4em;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-weight: normal;
+    }
+
+    .ImageContainer:hover #Text {
+        display: block;
+        transition: opacity 1s;
+        transform: translateY(-330px);
+        visibility: visible;
+    }
+
+    .ImageContainer:hover #Text1 {
+        display: block;
+        transition: opacity 1s;
+        transform: translateY(-300px);
+        visibility: visible;
+    }
+
+    .Overlay {
+        opacity: 0;
+
+    }
+
+    .ImageContainer:hover > .Overlay{
+
+        width: 320px;
+        height: 374px;
+        position: absolute;
+        background-color:#000;
+        opacity:0.7;
+        transition: opacity .5s ease-in-out;
+        transform: translate3d(5px, -380px, 0px);
+    }
+    
+    
+            /* SPONSOR SECTION */
+    
+    #TagHead {
+        display: none;
+    }
+    
+    #TagHead1 {
+        display: block;
+        font-size: 1.5em;
+        color: #fff;
+        font-weight: normal;
+        padding: 20px 0;;
+    }
+    
+    #TagHeadT {     /*TEMPORARY*/
+   
+        font-weight: lighter;
+        color: #fff;
+        font-size: 2.2em;
+        padding-top: 10px;
+    }
+    
+    
+        /* MEDIA SECTION */
+    
+    #MdHead {
+        display: none;
+    }
+    
+    #MdHead1 {
+        display: block;
+        font-family: 'Homenaje', sans-serif; 
+        font-size: 3.5em;
+        color: #000;
+        font-weight: bold;
+        
+    }
+    
+    #TagHeadTT {     /*TEMPORARY*/
+        padding-top: 30px;
+        font-weight: lighter;
+        color: #000;
+        font-size: 2.2em;
+        font-weight: bold;
+    }
+    
+    
+    /* BLOG SECTION */
+    
+    #ReadSection1 {
+        background-color: #070811;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 15px;
+        display: block;
+    }
+    
+    #BlogLink {
+        display: none;
+    }
+
+    #BlogContent {
+        display: none;
+    }
+
+    #BL {
+        display: none;
+    }
+
+/*    MOBILE WEBSITE*/
+    
+    #BL1 {
+        display: block;
+        padding: 10px 0;
+    }
+    
+    #BLL1 {
+        width: 90%;
+        height: auto;
+    }
+    
+    #BlogContent1 {
+        display: block;
+        color: #fff;
+        padding: 0 10px;
+        font-size: 1.2em;
+        font-weight: normal;
+    }
+    
+    #BlogLink1 {
+        color: #fff;
+    }
+    
+    /* ENGAGE SECTION */
+    
+    #EngageSection1{
+        padding: 20px 0 30px 0;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        background-color: #f6f6f6;
+    }
+
+    #GlCo {
+        font-family: 'Homenaje', sans-serif;
+        font-weight: normal;
+        color: #fd1a1a;
+        font-weight: normal;
+    }
+
+    #Quote11 {
+        padding-bottom: 0;
+        font-weight: normal;
+        font-size: 2.2em;
+    }
+
+    #Quote22 {
+        display: none;
+    }
+
+    #Quote222 {
+            display: none;
+    }
+
+    #Quote2222 {
+
+        font-family: 'Homenaje', sans-serif;
+        font-weight: normal;
+        color: #000;
+        font-size: 1.5em;
+        font-weight: normal;
+        display: block;
+    /*    text-decoration: underline;*/
+    }
+
+   
+    
+    
+    #Quote22M {
+        display: block;
+        font-family: 'Homenaje', sans-serif;
+        font-weight: normal;
+        color: #000;
+        font-size: 1.5em;
+        font-weight: normal;
+        border: 4px solid #000;
+        padding: 10px 31px;
+    }
+
+    #Quote222M {
+        display: block;
+        font-family: 'Homenaje', sans-serif;
+        font-weight: normal;
+        color: #000;
+        font-size: 1.5em;
+        font-weight: normal;
+        border: 4px solid #fd1a1a;
+        padding: 10px 31px;
+    }
+    
+    #S17M {
+        color: black;
+    }
+    
+   
+    
+    
+    #ContactSection1 {
+text-align: center;
+        width: 100%;
+        height: auto;
+        display: block;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+
+    #Venue {
+        display: block;
+        vertical-align: middle;
+    }
+    
+    #CME {
+        padding-bottom: 20px;
+        text-align: center;
+        display: block;
+        font-size: 4.5em;
+        font-weight: normal;
+        color: #fff;
+    }
+
+    #CCCo {
+       
+        
+        font-family: 'Homenaje', sans-serif;
+        display: block;
+        
+        font-size: 1.5em;
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    #C1 {
+        font-size: 1.3em;
+
+    }
+
+    #C2, #C3 {
+        font-size: 0.8em;
+        font-weight: lighter;
+        color: #cfcfcf;
+    }
+
+    #C4 {
+        font-size: 0.8em;
+        font-weight: lighter;
+        color: #f02323;
+    }
+
+    #NITMap {
+        display: none;
+    }
+    
+    #NITMap1 {
+        display: none;
+    }
+}

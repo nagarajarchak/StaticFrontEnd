@@ -1,0 +1,409 @@
+@media screen and (max-width: 1000px) {
+    
+    body {
+    background-image: url("Images/Creatives1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+}
+    
+    /********************************* 
+           HYPERLINK FORMATTING
+    *********************************/
+
+    a:link {
+        color: #390069;
+        text-decoration: none;
+        transition: all 0.5s;
+    }
+
+    /* Visited Link */
+    a:visited {
+        color: #390069;
+        text-decoration: none;
+    }
+
+    /* Mouse Over Link */
+    a:hover {
+        color: #ff0000;
+        text-decoration: none;
+        transition: all 0.2s;
+    }
+
+    /* Selected Link */
+    a:active {
+        color: #ff0000;
+        text-decoration: none;
+    }
+    
+    #Social {
+        padding-top: 30px;
+        text-align: center;
+    }
+    
+    /********************************* 
+                 SITE 2016
+    *********************************/
+
+    #MPLogo {
+        width: 85%;
+        height: auto;
+    }
+
+    #Site2016Section {
+
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    #Quote {
+        display: none;
+    }
+    
+    #Quote11 {
+        display: block;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-weight: normal;
+        font-size: 2em;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #Witness {
+        display: none;
+    }
+    
+    /********************************* 
+                NIT Trichy
+    *********************************/
+
+    #NITSection {
+        height: auto;
+        text-align: center;
+        width: 100%;    
+        vertical-align: middle;
+    }
+    
+    #ClkIm {
+        text-align: center;
+    }
+
+    #CT {
+        padding-top: 5%;
+        padding-right: 0px;
+        height: 200px;
+        width: auto;
+        float: none;
+      
+        
+    }
+    
+    
+
+    #NITHead {
+        font-family: 'Homenaje', sans-serif;
+        font-weight: bolder;
+        color: #fff;
+        font-size: 2.3em;
+        padding-top: 10%;
+        padding-left: 0; 
+        padding-bottom: 20px;
+        
+    }
+
+    #NITDescp {
+        display: none;
+    }
+    
+    #NITDescp1 {
+        display: block;
+        
+        font-family: 'Homenaje', sans-serif;
+        font-weight: normal;
+        color: #cfcfcf;
+        font-size: 1.45em;
+        padding: 20px 10px;        
+    }
+    
+    /********************************* 
+                TEDxSection
+    *********************************/
+
+    #TEDxSection {
+        text-align: center;
+        height: auto;
+        width: 100%;
+        padding: 0px 0;
+        background-color: rgba(243, 27, 27, 0.5);
+        margin: 0;
+    }
+
+/*
+    #Billion1 {
+        height: 60%;
+        width: auto;
+        float: right;
+        padding-top: 11%;
+        padding-right: 70px;
+    }
+*/
+
+    #T1 {
+        
+        font-size: 1.7em;
+        font-weight: bold;
+    }
+
+    #Theme1 {
+        
+        width: 100%;
+        font-family: 'Homenaje', sans-serif;
+        color: #fff;
+        font-size: 1.45em;
+        font-weight: normal;
+        display: block;
+        
+       padding: 30px 0;
+    }
+
+    #Theme2 {
+        color: #fff;
+        font-family: 'Homenaje', sans-serif;
+        font-weight: normal;
+        font-size: 1.45em;
+        display: block;
+        vertical-align: middle;
+        text-align: center;
+        width: 100%;
+            padding-left: 0px;
+            padding-right: 0px;
+        padding-bottom: 30px;
+    }
+    
+    /********************************* 
+           TEDxNITTrichy Section
+    *********************************/
+
+    #TEDxNITTrichySection{
+        width: 100%;
+        height: auto;
+
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    #T11 {
+       font-size: 1.7em; 
+    }
+
+    #Theme22 {
+        display: none;
+    }
+    
+    #Theme22345 {
+        display: block;
+        width: 100%;
+        font-size: 1.45em;
+        font-weight: normal;
+        padding-bottom: 30px;
+       
+    }
+
+    #T111 {
+        padding-top: 20px;
+        padding-right: 0;
+        font-weight: normal;
+        float: none;
+        font-family: 'Homenaje', sans-serif;
+        color: #fff;
+    /*    border-bottom: 5px solid #ff1d1d;*/
+       font-size: 3.8em; 
+    }
+
+    #PP1 {
+       font-size: 1.7em; 
+        padding: 0 5px;
+        border-bottom: 3px solid #ff1d1d;
+    }
+
+    #Prin1 {
+
+        padding-left: 0px;
+        width: 100%;
+        font-size: 1.45em;
+        font-weight: normal;
+        text-align: center;   
+    }
+    
+    /********************************* 
+                 TEDx 2015
+    *********************************/
+
+    #TEDx2015Section {
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    #Quote1 {
+        padding-top: 20px;
+        padding-bottom: 50px;
+        font-weight: normal;
+        font-size: 2em;
+    }
+
+    #Quote2 {
+
+        font-family: 'Homenaje', sans-serif;
+        font-weight: normal;
+        color: #fff;
+        font-size: 2em;
+        font-weight: normal;
+        border: 4px solid #fff;
+        padding: 5px 30px;
+    }
+
+    #E2017 {
+        font-family: 'Homenaje', sans-serif;
+        font-weight: normal;
+        color: #fff;
+        font-size: 2em;
+
+        border: 4px solid #fff;
+        padding: 5px 15px;
+    }
+
+    #S17 {
+        color: #fff;
+    }
+
+    #S17:hover {
+        color: #ff3838;
+    }
+    
+    /********************************* 
+                ORGANISERS
+    *********************************/
+
+    #OrganisersSection {
+        display: none;
+    }
+    
+    #OrganisersSection2 {
+        padding-top: 50px;
+        text-align: center;
+        height: auto;
+        width: 100%;
+        display: block;
+    }
+    
+    #TextO7 {
+        font-weight: normal;
+        font-size: 1.7em;
+    }
+    
+    .OrgContainer:hover img {
+        transform: scale(1);
+    }
+    
+    /********************************* 
+                TALK TO US
+    *********************************/
+
+    .BVideo {
+        display: none;
+    }
+    
+    
+    #ContactSection {
+text-align: center;
+        width: 100%;
+        height: auto;
+        display: block;
+        padding-bottom: 20px;
+        padding-left: 0px;
+        padding-top: 30px;
+    }
+
+    #Venue {
+        display: block;
+        vertical-align: middle;
+    }
+    
+    #CME {
+        padding-bottom: 20px;
+        text-align: center;
+        display: block;
+        font-size: 4.5em;
+        font-weight: normal;
+    }
+
+    #CCCo {
+       
+        
+        font-family: 'Homenaje', sans-serif;
+        display: block;
+        
+        font-size: 1.5em;
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    #C1 {
+        font-size: 1.3em;
+
+    }
+
+    #C2, #C3 {
+        font-size: 0.8em;
+        font-weight: lighter;
+        color: #cfcfcf;
+    }
+
+    #C4 {
+        font-size: 0.8em;
+        font-weight: lighter;
+        color: #f02323;
+    }
+
+    #NITMap {
+        display: none;
+    }
+    
+    #NITMap1 {
+        display: none;
+    }
+    
+    
+    
+   
+
+    /********************************* 
+                  Footer
+    *********************************/
+
+    #Footer11 {
+        background-color: rgba(243, 27, 27, 0.5);
+        height: auto;
+        width: 100%;
+        float: none;
+        padding: 20px 0;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    #Footer1 {
+        font-family: 'Homenaje', sans-serif;
+        font-size: 1.35em;
+        font-weight: normal;
+        color: #fff;
+        vertical-align: middle;
+    }
+
+    
+}

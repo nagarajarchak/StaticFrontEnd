@@ -1,0 +1,67 @@
+@media screen and (max-width: 1050px) {
+    
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #070811;
+        text-align: center;
+    }
+
+    /* Mouse Over Link */
+    a:hover {
+        color: #fff;
+    }
+
+    /* Selected Link */
+    a:active {
+        color: #fff;   
+    }
+
+    #TEDxLogo {
+        padding-top: 50px;
+        width: 75%;
+        height: auto;
+    }
+
+    #Glad {
+        display: block;
+        font-family: 'Homenaje', sans-serif;
+        color: #fff;
+        font-size: 3em;
+        padding: 20px 0;
+    }
+
+    #Choice1 {
+
+        font-family: 'Homenaje', sans-serif;
+        color: #fff;
+        font-size: 3em;
+        padding: 5px 189px;
+        font-weight: normal;
+
+        border: 3px solid #ee1c1c;
+    }
+
+    #Choice2 {
+
+        font-family: 'Homenaje', sans-serif;
+        color: #fff;
+        font-size: 3em;
+        padding: 5px 20px;
+        font-weight: normal;
+
+        border: 3px solid #ee1c1c;
+    }
+
+    #Choice3 {
+
+        font-family: 'Homenaje', sans-serif;
+        color: #fff;
+        font-size: 3em;
+        padding: 5px 59px;
+        font-weight: normal;
+
+        border: 3px solid #ee1c1c;
+    }
+    
+}
